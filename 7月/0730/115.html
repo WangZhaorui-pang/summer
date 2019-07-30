@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type = "text/javascript">
+        function btnclick1(){
+           var in1=document.getElementsByName("txt");
+           for (var i=0;i<in1.length;i++){
+               if(i%2==0){
+                   in1[i].style.background="red";
+               }
+            else{
+                in1[i].style.background="blue";
+                }
+        }
+        }
+    </script>
+    
+    </head>
+    <body>
+        <div>
+          <input type = "text" value = "男" name="txt" />
+          <input type = "text" value = "女" name="txt"/>
+          <input type = "text" value = "不知道" name="txt"/>
+          <input type = "text" value = "男" name="txt" />
+          <input type = "text" value = "女" name="txt"/>
+          <input type = "text" value = "不知道" name="txt"/>
+          <input type = "button" value = "click" onclick="btnclick1()"/>
+          
+        </div>
+        
+    </body>
+    
+
+</html>
