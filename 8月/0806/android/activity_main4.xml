@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <Button
+            android:id="@+id/button1"
+            android:gravity="left|top"
+            android:text="Button"
+            app:layout_heightPercent="50%"
+            app:layout_widthPercent="50%"
+    />
+    <Button
+            android:id="@+id/button2"
+            android:gravity="right|top"
+            android:text="Button"
+            app:layout_heightPercent="50%"
+            app:layout_widthPercent="50%"
+    />
+    <Button
+            android:id="@+id/button3"
+            android:gravity="left|bottom"
+            android:text="Button"
+            app:layout_heightPercent="50%"
+            app:layout_widthPercent="50%"
+    />
+    <Button
+            android:id="@+id/button4"
+            android:gravity="right|bottom"
+            android:text="Button"
+            app:layout_heightPercent="50%"
+            app:layout_widthPercent="50%"
+    />
+</LinearLayout>
